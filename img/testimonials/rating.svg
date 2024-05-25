@@ -1,0 +1,37 @@
+<svg width="118.125000" height="18.000000" viewBox="0 0 118.125 18" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1_396">
+			<rect id="63113d978ebd85eb94887924_star-rating-yellow.svg" width="19.625000" height="17.989584" transform="translate(0.000000 0.005371)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip1_401">
+			<rect id="63113d978ebd85eb94887924_star-rating-yellow.svg" width="19.625000" height="17.989584" transform="translate(24.625000 0.005371)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip1_406">
+			<rect id="63113d978ebd85eb94887924_star-rating-yellow.svg" width="19.625000" height="17.989584" transform="translate(49.250000 0.005371)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip1_411">
+			<rect id="63113d978ebd85eb94887924_star-rating-yellow.svg" width="19.625000" height="17.989584" transform="translate(73.875000 0.005371)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip1_416">
+			<rect id="63113d978ebd85eb94887924_star-rating-yellow.svg" width="19.625000" height="17.989584" transform="translate(98.500000 0.005371)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip1_396)">
+		<path id="Star" d="M9.81 13.97L4.04 17.75L5.85 11.1L0.48 6.78L7.36 6.45L9.81 0L12.25 6.45L19.14 6.78L13.76 11.1L15.58 17.75L9.81 13.97Z" fill="#FFC54F" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<g clip-path="url(#clip1_401)">
+		<path id="Star" d="M34.43 13.97L28.66 17.75L30.48 11.1L25.1 6.78L31.99 6.45L34.43 0L36.88 6.45L43.76 6.78L38.39 11.1L40.2 17.75L34.43 13.97Z" fill="#FFC54F" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<g clip-path="url(#clip1_406)">
+		<path id="Star" d="M59.06 13.97L53.29 17.75L55.1 11.1L49.73 6.78L56.61 6.45L59.06 0L61.5 6.45L68.39 6.78L63.01 11.1L64.83 17.75L59.06 13.97Z" fill="#FFC54F" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<g clip-path="url(#clip1_411)">
+		<path id="Star" d="M83.68 13.97L77.91 17.75L79.73 11.1L74.35 6.78L81.24 6.45L83.68 0L86.13 6.45L93.01 6.78L87.64 11.1L89.45 17.75L83.68 13.97Z" fill="#FFC54F" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<g clip-path="url(#clip1_416)">
+		<path id="Star" d="M108.31 13.97L102.54 17.75L104.35 11.1L98.98 6.78L105.86 6.45L108.31 0L110.75 6.45L117.64 6.78L112.26 11.1L114.08 17.75L108.31 13.97Z" fill="#FFC54F" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>
