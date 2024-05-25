@@ -6,7 +6,7 @@ body {
   color: rgb(156, 156, 156);
 }
 
-/*********************/
+/*************************************/
 
 .wrapper {
   min-height: 100%;
@@ -15,21 +15,23 @@ body {
   overflow: clip;
 }
 
-/***************************/
+/*************************************/
 [class*="__container"] {
   max-width: 1310px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-/*******************************/
+/*************************************/
 .page {
   flex: 1 1 auto;
 }
 
 .page__main {}
 
-/**************************BUTTON*/
+.page__clients {}
+
+/************************************BUTTON*/
 .button {
   display: inline-block;
   text-align: center;
@@ -49,8 +51,12 @@ body {
   background-color: rgba(129, 129, 139, 0.2);
 }
 
+.button:hover {
+  background-color: rgb(112, 179, 250);
+}
+
 .button__dark:hover {
-  background-color: rgba(129, 129, 139, 1);
+  background: rgba(129, 129, 139, 0.3);
 }
 
 @media (max-width: 991.98px) {
@@ -59,12 +65,26 @@ body {
   }
 }
 
-.button:hover {
-  background-color: rgb(112, 179, 250);
+.header-main__lable {
+  display: inline-block;
+  border: 1px solid rgba(129, 129, 139, 0.2);
+  border-radius: 12px;
+  color: rgb(156, 156, 156);
+  line-height: 17.28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 11px 18px;
+  transition: border 0.2s ease 0s;
+
 }
 
-.header-main {}
+.header-main__lable:hover {
+  border: 1px solid rgba(129, 129, 139, 0.4);
+}
 
+.header-main__lable:not(:last-child) {
+  margin-bottom: 19px;
+}
 
 .header-main__title {
   color: rgb(255, 255, 255);
@@ -83,24 +103,65 @@ body {
   margin-bottom: 33px;
 }
 
+.header-main__actions {
+  display: flex;
+  gap: 32px;
+}
+
+.header-main__button {}
+
+@media (max-width: 991.98px) {
+  .header-main__title {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .header-main__title {
+    font-size: 32px;
+  }
+
+  .header-main__title:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  .header-main__text:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .header-main__actions {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+}
+
 .header-main__text {
   color: rgb(156, 156, 156);
   font-size: 18px;
   line-height: calc(27 / 18 *100%);
+  max-width: 500px;
 }
+
+
+
+
 
 .text {
   line-height: calc(24 / 16 *100%);
+  color: rgb(129, 129, 139);
 }
 
-/*******************************HEADER*/
-
+/************************************HEADER*/
 .header {
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
-  background-color: rgb(13, 13, 17, 0.5);
+  z-index: 50;
+  background-color: rgb(13, 13, 17, 0.7);
 }
 
 .header__container {
@@ -327,11 +388,11 @@ body {
   }
 }
 
-/***********************************/
-
+/************************************MAIN*/
 
 .main {
   padding-top: 160px;
+  padding-bottom: 160px;
 }
 
 .main__container {
@@ -339,15 +400,21 @@ body {
   gap: 32px;
 }
 
+@media (max-width: 767.98px) {}
+
 .main__content {
   flex: 0 1 50%;
   align-self: center;
 }
 
 .main__header {
+  font-weight: 500;
+  font-size: 51px;
+  line-height: calc(61 / 51 *100%);
+  color: rgb(255, 255, 255);
+  max-width: 520px;
   position: relative;
 }
-
 
 .main__header::before {
   content: "";
@@ -408,11 +475,106 @@ body {
 @media (max-width: 991.98px) {
   .main {
     padding-top: 120px;
+    padding-bottom: 60px;
   }
 }
 
 @media (max-width: 767.98px) {
   .main {
     padding-top: 100px;
+    padding-bottom: 30px;
+  }
+
+  .main__container {
+    flex-direction: column;
+  }
+
+  .main__content {
+    align-self: stretch;
   }
 }
+
+/************************************CLIENTS*/
+
+.clients {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.clients__container {}
+
+.clients__title {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 14px;
+  line-height: calc(22 / 14 *100%);
+  margin-bottom: 44px;
+}
+
+.clients__items {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.clients__item {
+  max-width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .clients {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .clients {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+
+/************************************SERVICES*/
+
+.page__services {}
+
+.services {}
+
+.services__container {}
+
+.services__content {}
+
+.main__services {}
+
+.header-main {}
+
+.header-main__lable {}
+
+.header-main__title {}
+
+.header-main__text {}
+
+.header-main__actions {}
+
+.header-main__button {}
+
+.button {}
+
+.services__items {}
+
+.services__column {}
+
+.services__item {}
+
+.item-service {}
+
+.item-service__icon {}
+
+.item-service__title {}
+
+.item-service__text {}
+
+.text {}
